@@ -45,10 +45,9 @@ $(document).ready(function () {
 }
 
  checkHour();
-
  setInterval(checkHour, 1000);
 
-// Get saved data from the localStorage 
+// Get saved data from the user input from localStorage 
 $("#hour-9 .description").val(localStorage.getItem("hour-9"));
 $("#hour-10 .description").val(localStorage.getItem("hour-10"));
 $("#hour-11 .description").val(localStorage.getItem("hour-11"));
